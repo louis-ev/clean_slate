@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/sourcesanspro-400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/sourcesanspro-600.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
+}
+body {
+  font-family: 'Source Sans Pro';
+  font-size: 1.7rem;
+  color: #333;
+}
+header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+section {
+  max-width: 36em;
+  margin: auto;
+  padding: 0 1em;
+  margin-bottom: 4em;
+}
+section.doubleCol {
+  max-width: 56em;
+}
+section.doubleCol p {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+}
+h1,
+h2 {
+  font-family: 'Source Sans', Helvetica, Arial, sans-serif;
+  color: #27272E;
+}
+h1 {
+  font-size: 2.7em;
+  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.874em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 1;
+}
+h3 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.229em;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 25em) {
+  body {
+    font-size: 90%;
+  }
+}
